@@ -31,6 +31,7 @@ public class Assignment2onFF {
 		phone.sendKeys("1234567893");
 		WebElement email = driver.findElement(By.xpath("/html/body/div[4]/div/div/div/div/div/form/fieldset[3]/input"));
 		email.sendKeys("asd@k.com");
+		System.out.println("hello world");
 		WebElement city = driver.findElement(By.xpath("/html/body/div[4]/div/div/div/div/div/form/fieldset[5]/input"));
 		city.sendKeys("delhi");
 		WebElement uname =driver.findElement(By.xpath("/html/body/div[4]/div/div/div/div/div/form/fieldset[6]/input")); 
