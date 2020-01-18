@@ -19,7 +19,7 @@ public class EnterKeys {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://gmail.com");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(12, TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(12, TimeUnit.SECONDS);
 		
 		driver.findElement(By.id("identifierId")).sendKeys("asd@gmail.com");
 		
